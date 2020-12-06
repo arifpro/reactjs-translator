@@ -50,7 +50,7 @@ const Languages = ({ language, onLanguageChange }) => {
                         {
                             LANGUAGES.map(({ label, value }) => (
                                 <a
-                                    href='#/'
+                                    href='#'
                                     onClick={() => onSelect(value)}
                                     className='dropdown-item'
                                 >
