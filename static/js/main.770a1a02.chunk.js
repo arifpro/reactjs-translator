@@ -1,2 +1,0 @@
-(this["webpackJsonpreactjs-translator"]=this["webpackJsonpreactjs-translator"]||[]).push([[0],{13:function(t,e,r){"use strict";r.r(e);var n=r(2),a=(r(0),r(5)),c=r.n(a),s=r(24),i=Object(s.a)((function(){return{app:{textAlign:"center"}}}));var o=function(){var t=i();return Object(n.jsx)("div",{children:Object(n.jsx)("h1",{className:t.app,children:"React 17!"})})};c.a.render(Object(n.jsx)(o,{}),document.getElementById("root"))}},[[13,1,2]]]);
-//# sourceMappingURL=main.770a1a02.chunk.js.map
