@@ -2,7 +2,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
-    app: {
-        textAlign: 'center',
+    input: {
+        margin: '8px 0'
+    },
+    label: {
+        fontWeight: 700
     }
 }));

@@ -1,12 +1,18 @@
-// styles
-import useStyles from './styles';
+import { useState } from 'react';
+
+// components
+import Field from './components/Field';
 
 function App() {
-  const styles = useStyles();
+  const [text, setText] = useState('');
 
   return (
     <div>
-      <h1 className={styles.app}>React 17!</h1>
+      <Field
+        label='Enter English'
+        onChange={setText}
+        value={text}
+      />
     </div>
   );
 }
